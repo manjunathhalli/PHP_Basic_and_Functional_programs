@@ -1,2 +1,2 @@
-# PHP_Basic_and_Functional_programs
+# PHP_Basic,Functional,Logical_programs
 PHP Basic and Functional Practice Programs  
