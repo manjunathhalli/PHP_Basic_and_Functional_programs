@@ -1,22 +1,24 @@
 <?php
 
 require("Utility.php");
-class PrimeFactors{
+class PrimeFactors
+{
     //checks the no if its divisible by a prime no or not
-    static function primeF(){
+    static function primeF()
+    {
         echo "Enter a no : ";
         $numb = Utility::getInt();
         echo "prime factors are \n";
-        if(Utility::isPrime($numb)){
-            echo $numb."\n";
-            return ;
+        if (Utility::isPrime($numb)) {
+            echo $numb . "\n";
+            return;
         }
-        $num = $numb ;
-        for($i = 2 ; $i<=$numb/2 ; $i++){
-            while($num%$i==0){
-                if(Utility::isprime($i)){
-                    echo $i."x";
-                    $num /=$i;
+        $num = $numb;
+        for ($i = 2; $i <= $numb / 2; $i++) {
+            while ($num % $i == 0) {
+                if (Utility::isprime($i)) {
+                    echo $i . "x";
+                    $num /= $i;
                 }
             }
         }
