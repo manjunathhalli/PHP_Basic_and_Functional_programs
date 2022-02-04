@@ -1,7 +1,12 @@
 <?php
+/**
+ * Helper Function containing methods to use in othere php class
+ */
 class Utility
 {
-
+     /**
+     * to get input unless its an integer
+     */
     static public function getInt()
     {
         fscanf(STDIN, "%d\n", $val);
@@ -12,7 +17,10 @@ class Utility
         return $val;
     }
 
-
+    /**
+         * takin input as an array and return it
+         * @return array the int array by user input
+         */
     static function getIntArr()
     {
         echo "enter array size";

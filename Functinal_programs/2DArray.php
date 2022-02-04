@@ -1,5 +1,5 @@
 <?php
-require("Utility.php");
+require("Utility2.php");
 class Array2D{
 
     static function print($arr){
@@ -19,7 +19,7 @@ class Array2D{
             for($j = 0 ;$j <$b ;$j++){
                 $aa[$j]=Utility::getInt() ;
             }
-            array_push($arr , $aa);  //work it this place array
+            array_push($arr , $aa); 
         }
         return $arr ;
     }

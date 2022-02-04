@@ -1,5 +1,8 @@
 <?php
-require("Utility.php");
+/** 
+ * running time. Read in N integers and counts the   number of triples that sum to exactly 0
+ */
+require("Utility2.php");
 class SumOfInt{
 
     static function sum(){
