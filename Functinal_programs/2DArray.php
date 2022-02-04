@@ -19,7 +19,7 @@ class Array2D{
             for($j = 0 ;$j <$b ;$j++){
                 $aa[$j]=Utility::getInt() ;
             }
-            array_push($arr , $aa);
+            array_push($arr , $aa);  //work it this place array
         }
         return $arr ;
     }

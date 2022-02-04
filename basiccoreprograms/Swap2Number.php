@@ -1,3 +1,7 @@
+/**
+ * Swap two number without using third varieble .
+ */
+
 <?php  
 $a=234;  
 $b=345;  
