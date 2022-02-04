@@ -1,4 +1,8 @@
-<?php  
+<?php
+/**
+ * program to count fibonacci series
+ */
+
 $num = 0;  
 $n1 = 0;  
 $n2 = 1;  

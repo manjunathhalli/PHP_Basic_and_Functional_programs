@@ -1,4 +1,7 @@
-<?php  
+<?php
+/**
+ * program to fin reverse number 
+  */  
 $num = 23456;  
 $revnum = 0;  
 while ($num > 1)  

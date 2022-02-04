@@ -1,10 +1,11 @@
 <?php
+/**
+ * program to give unique coupens
+ */
 require("Utility1.php");
 Class CoupanNumber{
     static function coupens(){
-         // to generate alpha numeric coupens
          $code = "1 2 3 4 5 6 7 8 9 0 a s d f g h j k l z x c v b n m q w e r t y u i o p";
-         //converting to char array
          $arr = explode(" " , $code);
          $arrlen = count($arr); 
          $rand = rand(100000 , 10000000);
@@ -18,7 +19,6 @@ Class CoupanNumber{
             
              $rand /=$arrlen; 
          }
-         //printing the coupen
          echo "Coupen is : ".$coupen."\n";
     }
 

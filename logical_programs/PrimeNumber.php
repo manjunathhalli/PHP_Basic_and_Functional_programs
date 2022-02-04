@@ -1,4 +1,7 @@
-<?php  
+<?php 
+/**
+ * to find prime number.
+ */  
 $count = 0;  
 $num = 2;  
 while ($count < 15 )  
@@ -17,5 +20,4 @@ echo $num." , ";
 $count=$count+1;  
 }  
 $num=$num+1;  
-}  
-?>  
+}
